@@ -1,22 +1,22 @@
 {
-    "testData": true,
+    "testData": false,
     "deploySAP": true,
-    "deployDataMesh": true,
-    "turboMode": true,
-    "projectIdSource": "",
-    "projectIdTarget": "",
+    "deployDataMesh": false,
+    "turboMode": false,
+    "projectIdSource": "dhub-fsa",
+    "projectIdTarget": "dhub-fsa",
     "location": "US",
-    "targetBucket": "",
+    "targetBucket": "dh-cortex",
     "languages": [
         "E",
-        "S"
+        "D"
     ],
     "currencies": [
-        "USD"
+        "EUR"
     ],
     "k9": {
         "datasets": {
-            "processing": "K9_PROCESSING"
+            "processing": "cl_fsa"
         }
     },
     "DataMesh": {
@@ -26,18 +26,18 @@
         "deployACLs": false
     },
     "SAP": {
-        "deployCDC": true,
+        "deployCDC": false,
         "datasets": {
-            "cdc": "",
-            "raw": "",
-            "ml": "ML_MODELS",
-            "reporting": "REPORTING",
+            "cdc": "cl_fsa",
+            "raw": "cl_fsa",
+            "ml": "cl_fsa",
+            "reporting": "rl_fsa",
             "cdcECC": "",
             "rawECC": "",
-            "cdcS4": "",
-            "rawS4": ""
+            "cdcS4": "cl_fsa",
+            "rawS4": "cl_fsa"
         },
-        "SQLFlavor": "ecc",
+        "SQLFlavor": "s4",
         "mandt": "100",
         "mandtECC": "100",
         "mandtS4": "100"

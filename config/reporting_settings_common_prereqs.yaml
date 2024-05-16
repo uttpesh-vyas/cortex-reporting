@@ -9,20 +9,20 @@ bq_independent_objects:
   - type: k9_dawg
     k9_id: currency_conversion
 
-  - type: k9_dawg
-    k9_id: prod_hierarchy_texts
+  #- type: k9_dawg
+  #  k9_id: prod_hierarchy_texts
 
   - type: k9_dawg
     k9_id: hier_reader
 
-  - sql_file: is_leap_year.sql
-    type: script
+  #- sql_file: is_leap_year.sql
+  #  type: script
 
-  - type: k9_dawg
-    k9_id: fsv_hierarchy
+  #- type: k9_dawg
+  #  k9_id: fsv_hierarchy
 
   - type: k9_dawg
     k9_id: costcenter_hierarchy
 
-  - type: k9_dawg
-    k9_id: profitcenter_hierarchy
+  #- type: k9_dawg
+  #  k9_id: profitcenter_hierarchy
