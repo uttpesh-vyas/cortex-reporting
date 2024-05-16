@@ -35,8 +35,8 @@ dawgs:
   # - id: financial_statement
   #  path: local_k9/financial_statement
 
-  # - id: costcenter_hierarchy
-  #  path: local_k9/costcenter_hierarchy
+  - id: costcenter_hierarchy
+    path: local_k9/costcenter_hierarchy
 
   # - id: profitcenter_hierarchy
   #   path: local_k9/profitcenter_hierarchy
