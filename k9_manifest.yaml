@@ -16,8 +16,8 @@ dawgs:
   #   test_data: # name(s) of test data table(s), multiple names must be comma-separated.
   #
 
-  # - id: currency_conversion
-  #  path: local_k9/currency_conversion
+  - id: currency_conversion
+    path: local_k9/currency_conversion
 
   - id: hier_reader
     path: local_k9/hier_reader
