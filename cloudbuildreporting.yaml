@@ -129,8 +129,8 @@ steps:
         echo "==Skipping Data Mesh=="
       fi
 
-logsBucket: "gs://${_GCS_BUCKET}"
-timeout: 18000s
+logsBucket: 'gs://dh-cortex-logs'
+timeout: 58000s
 substitutions:
   _CONFIG_FILE: "config/config.json"
   _K9_MANIFEST_FILE: "k9_manifest.yaml"
